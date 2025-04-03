@@ -36,8 +36,13 @@
             <h1 class="hero-title">Schilder Goud Rijswijk</h1>
             <p class="hero-subtitle">Professionele schildersdiensten met gouden resultaten</p>
             <div class="btn-container">
-                <button class="btn rainbow-btn">Neem Contact Op</button>
-                <button class="btn rainbow-btn">Bekijk Onze Projecten</button>
+                <button class="btn rainbow-btn" onclick="document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' })">
+                    Bekijk Onze Projecten
+                </button>
+                <button class="btn rainbow-btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+                    Neem Contact Op
+                </button>
+                
             </div>
         </div>
         <div class="scroll-indicator">
@@ -125,7 +130,6 @@
             <div class="about-content" style="text-align: center; max-width: 800px; margin: 0 auto; opacity: 0; transform: translateY(30px); transition: all 0.8s ease;">
                 <p style="margin-bottom: 20px; line-height: 1.8; color: #333;">Schilder Goud Rijswijk is een gerenommeerd schildersbedrijf met jarenlange ervaring in de regio Rijswijk. Wij staan bekend om onze vakkundigheid, betrouwbaarheid en persoonlijke aanpak.</p>
                 <p style="margin-bottom: 20px; line-height: 1.8; color: #333;">Ons team bestaat uit ervaren vakmensen die passie hebben voor hun werk en streven naar perfectie in elk project. Wij werken uitsluitend met hoogwaardige materialen en moderne technieken.</p>
-                <button class="btn rainbow-btn" style="margin-top: 20px; opacity: 0; transform: translateY(30px); transition: all 0.8s ease; transition-delay: 0.4s;">Lees Meer Over Ons</button>
             </div>
         </div>
     </section>
