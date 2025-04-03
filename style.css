@@ -55,6 +55,8 @@ header.scrolled {
     background-clip: text;
     color: transparent;
     text-decoration: none;
+    height: 10%;
+    width: 10%;
 }
 
 .nav-menu {
