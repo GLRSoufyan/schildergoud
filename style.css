@@ -231,8 +231,8 @@ header.scrolled {
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
 .service-card {
@@ -256,6 +256,7 @@ header.scrolled {
 .section.animated .service-card:nth-child(1) { transition-delay: 0.2s; }
 .section.animated .service-card:nth-child(2) { transition-delay: 0.4s; }
 .section.animated .service-card:nth-child(3) { transition-delay: 0.6s; }
+.section.animated .service-card:nth-child(4) { transition-delay: 0.8s; }
 
 .service-card:hover {
     transform: translateY(-10px);
@@ -310,6 +311,9 @@ header.scrolled {
 .section.animated .gallery-item:nth-child(4) { transition-delay: 0.5s; }
 .section.animated .gallery-item:nth-child(5) { transition-delay: 0.6s; }
 .section.animated .gallery-item:nth-child(6) { transition-delay: 0.7s; }
+.section.animated .gallery-item:nth-child(7) { transition-delay: 0.8s; }
+.section.animated .gallery-item:nth-child(8) { transition-delay: 0.9s; }
+.section.animated .gallery-item:nth-child(9) { transition-delay: 1.0s; }
 
 .gallery-item img {
     width: 100%;
