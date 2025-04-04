@@ -59,6 +59,15 @@ header.scrolled {
     width: 10%;
 }
 
+/* Specifieke stijlen voor kleinere schermen (mobiel) */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 40px; /* Verhoog de font-size voor mobiel */
+        height: 25%; /* Pas de hoogte aan om het logo groter te maken */
+        width: 25%; /* Zorg ervoor dat de breedte automatisch schaling is */
+    }
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
